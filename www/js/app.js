@@ -19,7 +19,7 @@ function oferta_dia2(){
    $(document).ready(function(){
 
 	
-$("#ofer_hoje2").load('http://comerciouberaba.com.br/sis_mark/app_comercio_uber/cds_hoje.php');
+$("#ofer_hoje2").load('http://comerciouberaba.com.br/sis_mark/comercio_uber/cds_hoje.php');
 	
 });
 
@@ -34,7 +34,7 @@ function acc_lojas(){
 			execut1.preventDefault();
 
 	    var valores = $(this).attr('data-relmk');
-        var caminho = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/pag_saida.php";
+        var caminho = "http://comerciouberaba.com.br/sis_mark/comercio_uber/pag_saida.php";
         
 		
 		
@@ -80,7 +80,7 @@ $(document).ready(function() {
 		var valores1 = $(this).attr('name');
 		var valores2 = $(this).attr('data-relmk');
         var valores3 = $(this).attr('data-rel2');
-        var caminho2 = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/pag_saida.php";
+        var caminho2 = "http://comerciouberaba.com.br/sis_mark/comercio_uber/pag_saida.php";
 		
 		
 		$.ajax({
@@ -123,7 +123,7 @@ $(document).ready(function() {
         var valores2 = $(this).attr('data-rel2');
 		var valores3 = $(this).attr('data-rel3');
 		var valores4 = $(this).attr('name');
-        var caminho2 = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/pag_saida.php";
+        var caminho2 = "http://comerciouberaba.com.br/sis_mark/comercio_uber/pag_saida.php";
 		
 		
 		$.ajax({
@@ -163,7 +163,7 @@ $(document).ready(function() {
 
 	    var valores4 = $(this).attr('name');
 		var valores3 = $(this).attr('data-rel3');	
-		var caminho2 = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/pag_saida.php";
+		var caminho2 = "http://comerciouberaba.com.br/sis_mark/comercio_uber/pag_saida.php";
 		
 		
 		$.ajax({
@@ -204,7 +204,7 @@ $(document).ready(function() {
 
 	    var valores4 = $(this).attr('name');
 		var valores3 = $(this).attr('data-rel3');	
-		var caminho2 = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/pag_saida.php";
+		var caminho2 = "http://comerciouberaba.com.br/sis_mark/comercio_uber/pag_saida.php";
 		
 		
 		$.ajax({
@@ -244,7 +244,7 @@ $(document).ready(function() {
 
 	    var valores4 = $(this).attr('name');
 		var valores3 = $(this).attr('data-rel3');	
-		var caminho2 = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/pag_saida.php";
+		var caminho2 = "http://comerciouberaba.com.br/sis_mark/comercio_uber/pag_saida.php";
 		
 		
 		$.ajax({
@@ -284,7 +284,7 @@ function acc_busca(){
 
 	    var valores = $(this).attr('data-relmk');
 		var valores2 = $("#palavra").val();
-        var caminho = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/busca2.php";
+        var caminho = "http://comerciouberaba.com.br/sis_mark/comercio_uber/busca2.php";
         
 		
 		
@@ -328,7 +328,7 @@ function acc_busca_m(){
 
 	    var valores = $(this).attr('data-relmk');
 		var valores2 = $("#palavra_m").val();
-        var caminho = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/busca2.php";
+        var caminho = "http://comerciouberaba.com.br/sis_mark/comercio_uber/busca2.php";
         
 		
 		
@@ -374,7 +374,7 @@ function acc_categoria(){
             $('#conteudo_ofer_cat').empty()
             
 	    var valores = $(this).attr('data-relmk1');
-        var caminho = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/pag_saida.php";
+        var caminho = "http://comerciouberaba.com.br/sis_mark/comercio_uber/pag_saida.php";
         
 		
 		
@@ -420,7 +420,7 @@ $(document).ready(function() {
 	    var valores = $(this).attr('data-relmk');
 		var valores1 = $(this).attr('data-rel1');		
        	var valores4 = $(this).attr('name');
-        var caminho2 = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/pag_saida.php";
+        var caminho2 = "http://comerciouberaba.com.br/sis_mark/comercio_uber/pag_saida.php";
 		
 		
 		$.ajax({
@@ -460,7 +460,7 @@ $(document).ready(function() {
 
 	    var valores4 = $(this).attr('name');
 		var valores3 = $(this).attr('data-rel3');	
-		var caminho2 = "http://www.comerciouberaba.com.br/sis_mark/app_comercio_uber/pag_saida.php";
+		var caminho2 = "http://comerciouberaba.com.br/sis_mark/comercio_uber/pag_saida.php";
 		
 		
 		$.ajax({
